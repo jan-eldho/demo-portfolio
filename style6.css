@@ -1,0 +1,62 @@
+.frst_div{
+    height:100px ;
+    width: 100px;
+    border: red;
+    animation-name: example;
+    animation-duration: 10s;
+}
+@keyframes example {
+    from {
+        background-color: red;
+    }
+    to{
+        background-color: yellow;
+    }
+    
+}
+
+
+
+/* .secnd_div{
+    height: 200px;
+    margin-top: 200px;
+    margin-right: 200px;
+    animation-name: example2;
+    animation-duration: 20s;
+    background-color: yellow;
+}
+@keyframes example2 {
+    0%{
+        background-color: yellow;
+    }
+    25%{
+        background-color: red;
+    }
+    50%{
+        background-color:green ;
+    }
+    75%{
+        background-color:orange ;
+    }
+    100%{
+        background-color:yellow ;
+    }
+    
+} */
+
+.thrd_div{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    animation-name: exapl3;
+    animation-duration: 10s;
+    margin-top: 50px;
+}
+@keyframes exapl3 {
+    0%{margin-top: 50px; margin-left: 0px;}
+    25%{margin-top: 50px; margin-left: 200px;}
+    50%{margin-top: 200px; margin-left: 200px;}
+    75%{margin-top: 200px; margin-left: 0px;}
+    100%{margin-top: 50px; margin-left: 0px;}
+    
+}
